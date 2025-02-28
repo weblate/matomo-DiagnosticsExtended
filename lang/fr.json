@@ -1,6 +1,6 @@
 {
     "DiagnosticsExtended": {
-        "BackportingDisclaimerMariaDB": "(à moins que le distributeur de votre binaire MariaDB ne rétroporte des correctifs de sécurité)",
+        "BackportingDisclaimerMariaDB": "(tant que le distributeur de votre binaire MariaDB n'a pas appliqué les correctifs de sécurité)",
         "BackportingDisclaimerPHP": "(à moins que le distributeur de votre binaire PHP ne rétroporte des correctifs de sécurité)",
         "CurlVersionCheckFailed": "Matomo n'a pas pu vérifier si votre version curl présente des vulnérabilités.",
         "CurlVersionCheckLabel": "vérification de la version curl",
