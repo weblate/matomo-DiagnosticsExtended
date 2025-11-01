@@ -45,12 +45,6 @@
         "PhpVersionCheckNoInformation": "Keine Informationen über Ihre PHP Version verfügbar (%s)",
         "PhpVersionCheckNotEol": "Ihre PHP-Version (%1$s) erhält bis %2$s Sicherheitsunterstützung durch das PHP-Team.",
         "PhpVersionCheckNotWorking": "Matomo konnte nicht prüfen, ob Ihre PHP Version auf dem neuesten Stand ist",
-        "PhpVersionCheckOutdated": "Eine neuere PHP-Patch-Version (%1$s) ist verfügbar (Sie verwenden %2$s). Sie sollten möglichst zeitnah diese aktualisieren",
-        "URLCheckConfigIni": "%s scheint teilweise öffentlich zu sein. Während Angreifer die Konfiguration jetzt nicht lesen können, ist die Datei öffentlich zugänglich und wenn Ihr Webserver aus irgendeinem Grund die Ausführung von PHP-Dateien in der Zukunft stoppt, kann jeder Ihre MySQL-Anmeldeinformationen und weitere Informationen lesen. Bitte überprüfen Sie Ihre Webserver-Konfiguration.",
-        "URLCheckError": "%s sollte niemals öffentlich sein, ist es aber. Bitte prüfen Sie Ihre Webserverkonfiguration.",
-        "URLCheckLabel": "Dateien, die nicht öffentlich sein sollten",
-        "URLCheckLongErrorMessage": "Bitte prüfen Sie, ob Ihr Webserver die von Matomo generierten .htaccess-Dateien korrekt verarbeitet. Wenn Sie Nginx verwenden, werfen Sie bitte einen Blick in die %1$sofficial matomo-nginx config%2$s als Referenz für Dateien, die nicht öffentlich sein sollten. Die Angreifer könnten sonst in der Lage sein, sensible Daten zu lesen.",
-        "URLCheckOk": "%s scheint nicht öffentlich erreichbar zu sein",
-        "URLCheckSkipped": "Internet Features sind deaktiviert, deshalb wurde diese Prüfung übersprungen."
+        "PhpVersionCheckOutdated": "Eine neuere PHP-Patch-Version (%1$s) ist verfügbar (Sie verwenden %2$s). Sie sollten möglichst zeitnah diese aktualisieren"
     }
 }
