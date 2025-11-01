@@ -1,6 +1,6 @@
 {
     "DiagnosticsExtended": {
-        "BackportingDisclaimerMariaDB": "(à moins que le distributeur de votre binaire MariaDB ne rétroporte des correctifs de sécurité)",
+        "BackportingDisclaimerMariaDB": "(tant que le distributeur de votre binaire MariaDB n'a pas appliqué les correctifs de sécurité)",
         "BackportingDisclaimerPHP": "(à moins que le distributeur de votre binaire PHP ne rétroporte des correctifs de sécurité)",
         "CurlVersionCheckFailed": "Matomo n'a pas pu vérifier si votre version curl présente des vulnérabilités.",
         "CurlVersionCheckLabel": "vérification de la version curl",
@@ -45,12 +45,6 @@
         "PhpVersionCheckNoInformation": "Aucune information n'est connue sur votre version PHP (%s)",
         "PhpVersionCheckNotEol": "Votre version PHP (%1$s) bénéficie d'un support de sécurité par l'équipe PHP jusqu'au %2$s.",
         "PhpVersionCheckNotWorking": "Matomo n'a pas pu vérifier si votre version PHP est à jour",
-        "PhpVersionCheckOutdated": "Une version plus récente du correctif PHP (%1$s) est disponible (vous utilisez %2$s). Vous devriez le mettre à jour dès que possible",
-        "URLCheckConfigIni": "%s semble être semi-public. Bien que les attaquants ne puissent pas lire la configuration maintenant, le fichier est accessible au public et si, pour une raison quelconque, votre serveur Web cesse d'exécuter des fichiers PHP à l'avenir, tout le monde peut lire vos informations d'identification MySQL et plus encore. Veuillez vérifier la configuration de votre serveur Web.",
-        "URLCheckError": "%s ne devrait jamais être public, mais semble l'être. Veuillez vérifier la configuration de votre serveur Web.",
-        "URLCheckLabel": "Fichiers qui ne devraient pas être publics",
-        "URLCheckLongErrorMessage": "Veuillez vérifier si votre serveur Web traite correctement les fichiers .htaccess générés par Matomo. Si vous utilisez Nginx, veuillez consulter la %1$sconfiguration officielle de matomo-nginx%2$s pour référence pour les fichiers qui ne devraient pas être publics.<br> Sinon, les attaquants pourraient être en mesure de lire des données sensibles.",
-        "URLCheckOk": "%s ne semble pas accessible au public",
-        "URLCheckSkipped": "Les fonctionnalités Internet sont désactivées, cette vérification est donc ignorée."
+        "PhpVersionCheckOutdated": "Une version plus récente du correctif PHP (%1$s) est disponible (vous utilisez %2$s). Vous devriez le mettre à jour dès que possible"
     }
 }
