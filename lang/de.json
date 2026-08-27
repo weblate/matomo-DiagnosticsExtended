@@ -16,7 +16,7 @@
         "MatomoJSCheckFailedCurlTip": "versuchen Sie, %s auf Ihrem Server laufen zu lassen, und prüfen Sie, ob es möglich ist, die Datei erfolgreich abzurufen",
         "MatomoJSCheckGzipped": "matomo.js wurde komprimiert geliefert.",
         "MatomoJSCheckMIMEError": "matomo.js sollte mit einem „application/javascript“-Content-Typ geliefert werden. Sie verwenden „%s“.",
-        "MatomoJSCheckNotGzipped": "matomo.js wird nicht im gzip-Format geliefert. Sie könnten gzip für .js-Dateien einrichten, da es zu einer Reduzierung der Dateigröße um bis zu 60 % führt .",
+        "MatomoJSCheckNotGzipped": "matomo.js wird nicht im gzip-Format geliefert. Sie könnten gzip für .js-Dateien einrichten, da es zu einer Reduzierung der Dateigröße führt um bis zu 60 %.",
         "MatomoJSCheckUnknown": "Matomo konnte nicht feststellen, ob deine matomo.js richtig abgerufen wurde.",
         "NotificationText": "Sie haben das Plugin DiagnosticsExtended aktiviert. Es fügt dieser Seite weitere experimentelle Systemprüfungen (gekennzeichnet mit 🧪) hinzu, die bei den Problemen mit Ihrer Matomo-Instanz helfen können. Es kann trotzdem ein paar positive und negative Falschmeldungen geben, also nehmen Sie die Ergebnisse nicht zu ernst und prüfen Sie selbst nach. Bitte melden Sie Probleme mit dem Plugin im %1$sForum%2$s oder %3$serstelle ein GitHub Problem%4$s, damit die Prüfungen verbessert werden können.",
         "NotificationTitle": "Über DiagnosticsExtended",
